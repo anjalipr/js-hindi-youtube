@@ -1,0 +1,9 @@
+//null => standalone value   null is object
+//undefined  => undefined is type
+//symbol => used for unique
+
+//alert(3+3) //is used in browser not in node like this
+
+console.log(typeof null)
+console.log(typeof undefined)
+
