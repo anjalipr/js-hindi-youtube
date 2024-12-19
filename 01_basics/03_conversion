@@ -1,0 +1,27 @@
+//NAN => not a number
+
+let score=true
+
+//console.log(typeof score)
+
+let num=Number(score)
+
+//console.log(typeof num)
+//console.log(num)
+
+//conversion anything to number 
+/*"33"=> number
+"33abc "=> NaN
+undefined => NaN
+null=> 0 / NaN*/
+
+let isboolean = undefined
+let isBooleantrue=Boolean(isboolean)
+console.log(typeof isBooleantrue)
+console.log(isBooleantrue)
+
+//conversion anything to boolean 
+/*"33"=> true
+" "=> true
+undefined => false
+null=> false */
