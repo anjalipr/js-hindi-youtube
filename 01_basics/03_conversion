@@ -17,11 +17,35 @@ null=> 0 / NaN*/
 
 let isboolean = undefined
 let isBooleantrue=Boolean(isboolean)
-console.log(typeof isBooleantrue)
-console.log(isBooleantrue)
+//console.log(typeof isBooleantrue)
+//console.log(isBooleantrue)
 
 //conversion anything to boolean 
 /*"33"=> true
 " "=> true
 undefined => false
 null=> false */
+
+//******************************Operations **********************/
+
+let value=3
+let negvalue=-value
+
+// console.log(typeof negvalue)
+// console.log(negvalue)
+// console.log("1" + 2)
+
+// console.log(+true)
+
+// console.log("2"  > 1)   // always compare same datatype value
+
+// console.log(null ==0 )
+// console.log(null >0)
+// console.log(null < 0)
+// console.log(null >= 0)
+
+//== equality works differently however comparision ie < < works differently
+
+//=== strict check
+
+console.log("2"  ===2)
